@@ -2,7 +2,7 @@
   font-family: 'Zantroke';
   font-style: normal;
   font-weight: 400;
-  src: local('Zantroke'), url(../fonts/Zantroke.otf) format('otf');
+  src: local('Zantroke'), url(../fonts/Zantroke.woff) format('woff');
 }
 
 body {
