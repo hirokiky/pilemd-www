@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'Zantroke';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Zantroke'), url(../fonts/Zantroke.otf) format('otf');
+}
+
+body {
+    color: #333;
+    font-family: "Helvetica", "Arial", monospace;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    margin-top: 40px;
+    max-width: 1000px;
+    width: 80vw;
+
+    align-items: center;
+}
+.row.reverse {
+    flex-flow: row wrap-reverse;
+}
+
+.nav {
+    height: 45px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: solid 1px #eee;
+}
+
+.nav-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    width: 42px;
+    height: auto;
+}
+
+.nav-platform {
+    font-size: 16px;
+    color: #666;
+}
+
+.chunk {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    padding-top: 62px;
+    padding-bottom: 40px;
+}
+
+.chunk h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.chunk .text {
+    max-width: 420px;
+    margin-bottom: 62px;
+}
+
+.chunk .text-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.chunk .text-wrapper h2 {
+    font-size: 32px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.chunk .text-wrapper .text {
+    max-width: 380px;
+}
+
+.nice-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5em;
+    text-indent: 1em;
+    margin: 4px;
+}
+
+.ss-wrapper {
+    display: block;
+}
+
+.ss {
+    border-radius: 6px;
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin-bottom: 64px;
+}
+
+@media(max-width: 960px) {
+    .ss {
+        max-width: 680px;
+    }
+}
+
+.top-chunk {
+    padding-bottom: 0;
+}
+
+.top-chunk h1 {
+    font-size: 72px;
+    font-family: "Zantroke", "Helvetica", monospace;
+    margin-bottom: 4px;
+}
+
+.top-chunk h1 .brand-lower {
+    letter-spacing: -1px;
+    font-size: 44px;
+}
+
+.top-chunk .brand-catch {
+    font-size: 22px;
+}
+
+.top-ss {
+    display: block;
+    box-shadow: 0 -3px 6px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px 6px 0 0 / 6px 6px 0 0 ;
+    margin-top: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    width: auto;
+    height: auto;
+}
+
+@media(max-width: 960px) {
+    .top-ss {
+        max-width: 680px;
+    }
+}
+
+.editor-chunk {
+    padding-bottom: 60px;
+    border-top: solid 1px #eee;
+    background-color: #fafafa;
+}
+
+.editor-ss {
+    width: 480px;
+    height: auto;
+}
+
+.editor-ss-right {
+    display: flex;
+    flex-flow: column;
+}
+
+.interface-ss-2 {
+    width: 280px;
+    height: auto;
+}
+
+.interface-ss {
+    width: 480px;
+    height: auto;
+}
+
+.no-chunk {
+    background-color: #fafafa;
+}
+
+.olds-ss {
+    width: 720px;
+    height: auto;
+}
+
+button.download-button {
+    background: linear-gradient(#4F89FF, #1745EA);
+    font-family: "Helvetica", monospace;
+    color: #fff;
+    border: solid 1px #4552F5;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    margin: auto 12px auto 12px;
+}
+
+button.download-button:hover {
+    cursor: pointer;
+    background: linear-gradient(#7aabff, #4364ff);
+    border: solid 1px #6b76f5;
+}
+
+
+.download-wrapper {
+    margin-bottom: 62px;
+}
+
+.download-other-platform {
+    color: #888;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #888;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: solid 1px #eee;
+    font-size: 14px;
+}
