@@ -137,13 +137,14 @@ body {
 
 .top-chunk .brand-catch {
     font-size: 22px;
+    margin-bottom: 28px;
 }
 
 .top-chunk .text {
     margin-bottom: 0;
 }
 .top-chunk .top-nice-text {
-    margin-top: 28px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
