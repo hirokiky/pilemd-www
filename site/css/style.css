@@ -101,6 +101,7 @@ body {
     line-height: 1.5em;
     text-indent: 1em;
     margin: 4px;
+    padding: 4px;
 }
 
 .ss-wrapper {
@@ -114,9 +115,10 @@ body {
     margin-bottom: 64px;
 }
 
-@media(max-width: 960px) {
+@media(max-width: 480px) {
     .ss {
         max-width: 680px;
+        width: 100%;
     }
 }
 
@@ -163,6 +165,7 @@ body {
 @media(max-width: 960px) {
     .top-ss {
         max-width: 680px;
+        width: 100%;
     }
 }
 
@@ -173,7 +176,7 @@ body {
 }
 
 .editor-ss {
-    width: 480px;
+    max-width: 480px;
     height: auto;
 }
 
@@ -183,12 +186,12 @@ body {
 }
 
 .interface-ss-2 {
-    width: 280px;
+    max-width: 280px;
     height: auto;
 }
 
 .interface-ss {
-    width: 480px;
+    max-width: 480px;
     height: auto;
 }
 
@@ -197,7 +200,7 @@ body {
 }
 
 .olds-ss {
-    width: 720px;
+    max-width: 720px;
     height: auto;
 }
 
