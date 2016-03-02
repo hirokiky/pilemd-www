@@ -124,7 +124,6 @@ body {
         width: 100%;
     }
 }
-
 .top-chunk {
     padding-bottom: 0;
 }
@@ -138,6 +137,10 @@ body {
 .top-chunk h1 .brand-lower {
     letter-spacing: -1px;
     font-size: 44px;
+}
+
+.top-chunk h1 .brand-md {
+    letter-spacing: -2px;
 }
 
 .top-chunk .brand-catch {
