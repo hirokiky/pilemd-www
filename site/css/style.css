@@ -212,10 +212,8 @@ body {
 }
 
 button.download-button {
-    background: linear-gradient(#4F89FF, #1745EA);
-    font-family: "Helvetica", monospace;
     color: #fff;
-    border: solid 1px #4552F5;
+    font-family: "Helvetica", monospace;
     border-radius: 4px;
     font-size: 18px;
     font-weight: 300;
@@ -224,10 +222,28 @@ button.download-button {
     margin: auto 12px auto 12px;
 }
 
+button.download-button.download-button-pre {
+    background: linear-gradient(#4F89FF, #1745EA);
+    border: solid 1px #4552F5;
+}
+button.download-button.download-button-sec {
+    background: linear-gradient(#898989, #646464);
+    border: solid 1px #525252;
+}
 button.download-button:hover {
     cursor: pointer;
+}
+button.download-button.download-button-pre:hover {
     background: linear-gradient(#7aabff, #4364ff);
     border: solid 1px #6b76f5;
+}
+button.download-button.download-button-sec:hover {
+    background: linear-gradient(#9c9c9c, #767676);
+    border: solid 1px #646464;
+}
+
+.nav-download button.download-button {
+    margin: auto 3px auto 3px;
 }
 
 
