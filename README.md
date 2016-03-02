@@ -1,6 +1,12 @@
 # pilemd.com www
 
-WWW site for https://pilemd.com/.
+PileMd is a Markdown note app. https://pilemd.com/
+
+* Beautiful Highlight
+* Completing Syntax
+* Syncing with Local files
+
+![PileMd](https://pilemd.com/images/top1.png)
 
 ## Deploying
 
